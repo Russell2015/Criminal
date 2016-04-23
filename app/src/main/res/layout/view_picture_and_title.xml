@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:baselineAligned="false"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="16dp"
+              android:layout_marginStart="16dp"
+              android:layout_marginLeft="16dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp">
+        <ImageView
+            android:id="@+id/crime_details_picture_view"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:cropToPadding="true"
+            android:background="@android:color/darker_gray"/>
+        <ImageButton
+            android:id="@+id/crime_details_image_capture_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_camera"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="标题"
+            style="?android:listSeparatorTextViewStyle"/>
+        <EditText
+            android:id="@+id/crime_details_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入您想说的事情"/>
+
+    </LinearLayout>
+
+</LinearLayout>

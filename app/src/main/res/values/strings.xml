@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Criminal</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_crime_list">CrimeListActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="crime_report">%1$s\n\n该现象发现于%2$s。%3$s，%4$s。</string>
+    <string name="crime_report_solved">这个问题已经解决了</string>
+    <string name="crime_report_unsolved">这个问题还没有解决</string>
+    <string name="crime_report_suspect">怀疑是%s干的</string>
+    <string name="crime_report_no_suspect">这事还不知道是谁干的</string>
+    <string name="send_report">分享记录</string>
+</resources>
